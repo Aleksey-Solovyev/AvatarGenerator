@@ -14,7 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+//    @IBOutlet weak var avatarViewField: UIImageView!
+//    
+//    @IBOutlet weak var generatorTextField: UITextField!
+//    
+//    @IBAction func generateButton(_ sender: Any) {
+//    }
+//    
+//    @IBAction func chooseOptionsPicker(_ sender: Any) {
+//    }
 }
 

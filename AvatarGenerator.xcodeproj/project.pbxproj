@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA4CBDDC221C373A008609BD /* AvatarLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4CBDDB221C373A008609BD /* AvatarLoader.swift */; };
 		DAEB3C60221B0D980066755D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB3C5F221B0D980066755D /* AppDelegate.swift */; };
 		DAEB3C62221B0D980066755D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB3C61221B0D980066755D /* ViewController.swift */; };
 		DAEB3C65221B0D980066755D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEB3C63221B0D980066755D /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA4CBDDB221C373A008609BD /* AvatarLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarLoader.swift; sourceTree = "<group>"; };
 		DAEB3C5C221B0D980066755D /* AvatarGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatarGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEB3C5F221B0D980066755D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAEB3C61221B0D980066755D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				DAEB3C5F221B0D980066755D /* AppDelegate.swift */,
 				DAEB3C61221B0D980066755D /* ViewController.swift */,
+				DA4CBDDB221C373A008609BD /* AvatarLoader.swift */,
 				DAEB3C63221B0D980066755D /* Main.storyboard */,
 				DAEB3C66221B0D990066755D /* Assets.xcassets */,
 				DAEB3C68221B0D990066755D /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAEB3C62221B0D980066755D /* ViewController.swift in Sources */,
+				DA4CBDDC221C373A008609BD /* AvatarLoader.swift in Sources */,
 				DAEB3C60221B0D980066755D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AvatarGenerator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -291,6 +297,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AS.AvatarGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,7 +307,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AvatarGenerator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AS.AvatarGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
